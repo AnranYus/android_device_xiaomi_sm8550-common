@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter fuxi nuwa socrates,$(TARGET_DEVICE)),)
+ifneq ($(filter fuxi nuwa socrates vermeer,$(TARGET_DEVICE)),)
 include $(LOCAL_PATH)/vendor-symlinks.mk
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
